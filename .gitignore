@@ -1,0 +1,5 @@
+config/*
+data/**/*
+
+mu2/**/*
+mu2-search/**/*
