@@ -36,24 +36,35 @@ Key: bot/config
 ```json
 {
   "log": {
-  	"level": "info",
+    "level": "debug",
     "discord": {
       "level": "warn",
-      "webhook": "MY_DISCORD_WEBHOOK"
+      "webhook": "MY_DISCORD_WEHBOOK"
     }
   },
   "database": {
-  	"type": "postgres",
+    "type": "postgres",
     "host": "postgres",
     "user": "mu2",
     "password": "mu2",
     "ssl": "disable"
   },
   "bot": {
-  	"discord": {
+    "discord": {
       "token": "MY_DISCORD_TOKEN"
     },
-    "prefix": "$"
+    "prefix": "$",
+    "commands": [
+      "play"
+    ]
+  },
+  "services": {
+    "search": {
+      "location": "mu2.service.search"
+    },
+    "encode": {
+      "location": "mu2.service.encode"
+    }
   }
 }
 ```
