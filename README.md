@@ -55,7 +55,13 @@ Key: bot/config
     },
     "prefix": "$",
     "commands": [
-      "play"
+      "play",
+      "pause",
+      "resume",
+      "stop",
+      "skip",
+      "loop",
+      "repeat"
     ]
   },
   "services": {
