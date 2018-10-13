@@ -11,7 +11,7 @@ Deployment files for Mu2.
 
 ## Prerequisites
 
-Before installing make sure you have git, make, docker and docker-compose installed
+Before installing make sure you have docker and docker-compose installed
 
 ## Install
 
@@ -94,8 +94,8 @@ If you edit and save the config you should see the bot update itself within a co
 
 ## Running
 
-Run docker-compose and you're good to go
+Run docker-compose, add the configs in consul and then you're good to go
 
 ```bash
-make run
+docker-compose up
 ```
